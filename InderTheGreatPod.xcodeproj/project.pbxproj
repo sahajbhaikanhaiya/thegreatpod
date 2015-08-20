@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011FF6B11B85B48E00F43E46 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011FF6B01B85B48E00F43E46 /* Sum.swift */; };
 		0155C0FE1B85A0CB00BC5D1B /* InderTheGreatPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 0155C0FD1B85A0CB00BC5D1B /* InderTheGreatPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0155C1051B85A0CB00BC5D1B /* InderTheGreatPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0155C0FA1B85A0CB00BC5D1B /* InderTheGreatPod.framework */; };
 		0155C10A1B85A0CB00BC5D1B /* InderTheGreatPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155C1091B85A0CB00BC5D1B /* InderTheGreatPodTests.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011FF6B01B85B48E00F43E46 /* Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		0155C0FA1B85A0CB00BC5D1B /* InderTheGreatPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InderTheGreatPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0155C0FD1B85A0CB00BC5D1B /* InderTheGreatPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InderTheGreatPod.h; sourceTree = "<group>"; };
 		0155C0FF1B85A0CB00BC5D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				0155C0FD1B85A0CB00BC5D1B /* InderTheGreatPod.h */,
 				0155C0FF1B85A0CB00BC5D1B /* Info.plist */,
+				011FF6B01B85B48E00F43E46 /* Sum.swift */,
 			);
 			path = InderTheGreatPod;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 		0155C0F11B85A0CB00BC5D1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = inder;
 				TargetAttributes = {
@@ -252,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011FF6B11B85B48E00F43E46 /* Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 355C38AE44C20770B2556779 /* Pods-InderTheGreatPod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -377,6 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.InderTheGreatPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -384,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 477F2294BDFA820865936A29 /* Pods-InderTheGreatPod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

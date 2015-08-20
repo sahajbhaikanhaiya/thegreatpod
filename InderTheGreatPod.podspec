@@ -36,12 +36,12 @@ s.source = { :git => "https://github.com/sahajbhaikanhaiya/thegreatpod.git", :ta
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 1.3'
+
 
 
 # 8
-s.source_files = "InderTheGreatPod/**/*.{swift}"
+s.source_files = "InderTheGreatPod/**/*.{h}"
 
 # 9
-s.resources = "InderTheGreatPod/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "InderTheGreatPod/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
