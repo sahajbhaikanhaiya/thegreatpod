@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0103AC981B85BC6800A638F5 /* inderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0103AC971B85BC6800A638F5 /* inderClass.swift */; };
+		0103AC9A1B85BF3200A638F5 /* InderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0103AC991B85BF3200A638F5 /* InderClass.swift */; };
 		0155C0FE1B85A0CB00BC5D1B /* InderTheGreatPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 0155C0FD1B85A0CB00BC5D1B /* InderTheGreatPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0155C1051B85A0CB00BC5D1B /* InderTheGreatPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0155C0FA1B85A0CB00BC5D1B /* InderTheGreatPod.framework */; };
 		0155C10A1B85A0CB00BC5D1B /* InderTheGreatPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155C1091B85A0CB00BC5D1B /* InderTheGreatPodTests.swift */; };
@@ -25,7 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0103AC971B85BC6800A638F5 /* inderClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inderClass.swift; sourceTree = "<group>"; };
+		0103AC991B85BF3200A638F5 /* InderClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InderClass.swift; sourceTree = "<group>"; };
 		0155C0FA1B85A0CB00BC5D1B /* InderTheGreatPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InderTheGreatPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0155C0FD1B85A0CB00BC5D1B /* InderTheGreatPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InderTheGreatPod.h; sourceTree = "<group>"; };
 		0155C0FF1B85A0CB00BC5D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			children = (
 				0155C0FD1B85A0CB00BC5D1B /* InderTheGreatPod.h */,
 				0155C0FF1B85A0CB00BC5D1B /* Info.plist */,
-				0103AC971B85BC6800A638F5 /* inderClass.swift */,
+				0103AC991B85BF3200A638F5 /* InderClass.swift */,
 			);
 			path = InderTheGreatPod;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0103AC981B85BC6800A638F5 /* inderClass.swift in Sources */,
+				0103AC9A1B85BF3200A638F5 /* InderClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

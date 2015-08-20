@@ -1,5 +1,5 @@
 //
-//  inderClass.swift
+//  InderClass.swift
 //  InderTheGreatPod
 //
 //  Created by Pidhi on 20/08/15.
@@ -17,12 +17,12 @@ class InderClass {
     init(firstName: String, lastName: String) {
         self.firstName = firstName
         self.lastName = lastName
-}
+    }
     
-     func showMessage(){
-    
-    print("\(firstName) \(lastName) says \(bio)")
+    func showMessage(){
+        
+        print("\(firstName) \(lastName) says \(bio)")
         
     }
-
+    
 }
