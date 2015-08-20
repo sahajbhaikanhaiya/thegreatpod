@@ -14,12 +14,12 @@ public class InderClass {
     var bio: String = "I ♡ Swift!"
     
     // no bio provided
-    init(firstName: String, lastName: String) {
+    public init(firstName: String, lastName: String) {
         self.firstName = firstName
         self.lastName = lastName
     }
     
-    func showMessage(){
+    public func showMessage(){
         
         print("\(firstName) \(lastName) says \(bio)")
         

@@ -8,7 +8,7 @@ s.summary = "InderTheGreatPod lets a user do custom stuff"
 s.requires_arc = true
 
 # 2
-s.version = "0.4.0"
+s.version = "0.4.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -36,8 +36,7 @@ s.source = { :git => "https://github.com/sahajbhaikanhaiya/thegreatpod.git", :ta
 
 # 7
 s.framework = "UIKit"
-
-
+s.dependency 'Alamofire', '2.0.0-beta.1'
 
 # 8
 s.source_files = "InderTheGreatPod/**/*.{h,swift}"

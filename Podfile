@@ -6,8 +6,7 @@ use_frameworks!
 
 target 'InderTheGreatPod' do
 
-pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch => 'swift-2.0'
-
+pod 'Alamofire', '2.0.0-beta.1'
 end
 
 target 'InderTheGreatPodTests' do
