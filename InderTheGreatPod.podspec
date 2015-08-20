@@ -8,7 +8,7 @@ s.summary = "InderTheGreatPod lets a user do custom stuff"
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.2.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -40,7 +40,7 @@ s.framework = "UIKit"
 
 
 # 8
-s.source_files = "InderTheGreatPod/**/*.{h}"
+s.source_files = "InderTheGreatPod/**/*.{h,swift}"
 
 # 9
 # s.resources = "InderTheGreatPod/**/*.{png,jpeg,jpg,storyboard,xib}"
