@@ -8,7 +8,7 @@
 
 import Foundation
 
-class InderClass {
+public class InderClass {
     var firstName: String
     var lastName: String
     var bio: String = "I ♡ Swift!"
